@@ -1,1 +1,1 @@
-# onelinekilonovadetection
+# online-kilonova-detection
