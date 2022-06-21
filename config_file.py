@@ -2,7 +2,7 @@
 
 '''
 Opens a yaml file and returns a dictionary containing the configuration.
-Or save the dictionary data to yaml file.
+Or converts  the dictionary data to yaml file.
 '''
 import os
 import yaml
@@ -24,7 +24,8 @@ def dict_to_yaml(dict:dict, datapath:str):
     
     '''Converts a dictionary to a yaml file.
     :param dict: The dictionary to be converted.
-    :param datapath: The path where the yaml file will be stored.
+    :param datapath: The path where the yaml file is to be saved.
+    :return: Nothing.
     '''
     with open(datapath, "w") as stream:
         try:
