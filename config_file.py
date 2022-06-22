@@ -1,9 +1,12 @@
 # coding: utf-8
-
-'''
-Opens a yaml file and returns a dictionary containing the configuration.
-Or converts  the dictionary data to yaml file.
-'''
+#---------------------------------------------------------------------------
+#  ?                                ABOUT
+#  @author         :  
+#  @email          :  
+#  @repo           :  
+#  @createdOn      :  
+#  @description    : Read skyportal-fink-client a yaml configuration file 
+#---------------------------------------------------------------------------
 import os
 import yaml
 
