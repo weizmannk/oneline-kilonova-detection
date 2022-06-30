@@ -1,15 +1,15 @@
-group_id: weizmann_fink
+fink_username: weizmann
+fink_group_id: weizmann_fink
+fink_password: null
+fink_servers: 134.158.74.95:24499
+fink_topics:
+  - fink_kn_candidates_ztf
+  - fink_early_kn_candidates_ztf
+  - fink_sn_candidates_ztf
+  - fink_early_sn_candidates_ztf
 maxtimeout: 5
-mytopics:
-- fink_kn_candidates_ztf
-- fink_early_kn_candidates_ztf
-- fink_sn_candidates_ztf
-- fink_early_sn_candidates_ztf
-password: null
-servers: 134.158.74.95:24499
-skyportal_group: Fink
-skyportal_token: b0e89eb2-d80e-4820-9cca-45371c87fc70
+skyportal_group: NMMA-SkyPortal
+skyportal_token: fb4d6c81-c966-452d-af54-2e18237a85af
 skyportal_url: http://localhost:5000
 testing: true
-username: weizmann
 whitelisted: false
